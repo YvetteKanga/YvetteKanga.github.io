@@ -1,0 +1,251 @@
+body{
+	background-color: grey;
+}
+
+.nom{
+	margin-top: -137%;
+	margin-left: 40%;
+}
+.nom h1{
+	font-size: xx-large;
+	margin-left: -3%;
+}
+h5{
+	margin-left: 10%;
+	margin-top: -20px;
+}
+img{
+	width: 250px;
+	height: 250px;
+	border-radius: 150px;
+}
+.profil{
+	background-color: #00bfff;
+	width: 100%;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+}
+.profil1{
+	background-color: #00bfff;
+	width: 100%;
+	color: white;
+	text-align: center;
+	margin-bottom: 10px;
+
+}
+.profil2{
+	background-color: #00bfff;
+	width: 100%;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+}
+aside{
+	background-color: #191970;
+	width: 35%;
+	margin-top: -40px;
+	margin-left: -41px;
+	padding-bottom: 1px;
+
+}
+aside p{
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+.contenu{
+	display: flex;
+	font-size: 20px;
+	margin-left: 30%;
+	flex-wrap: wrap;
+	padding-bottom: 35px;
+}
+main{
+	color: white;
+	
+}
+.moncv{
+	background-color: white;
+	position: absolute;
+	width: 60%;
+	left: 15%;
+	padding: 3%;
+}
+section{
+	color: black;
+}
+i{
+	padding: 7px;
+}
+#cercle{
+	width: 30px;
+	height: 30px;
+	border-radius: 20px;
+	background-color: #00bfff;
+	margin-left: 15%;
+	display: flex;
+	margin-bottom: 8px;
+	margin-top: 5px;
+}
+#cercle1{
+	width: 32px;
+	height: 32px;
+	border-radius: 20px;
+	background-color: white;
+	margin-left: 4%;
+	margin-bottom: 20px;
+	display: flex;
+	margin-top: -25px;
+}
+#cercleG{
+	width: 240px;
+	height: 240px;
+	border-radius: 150px;
+	background-color: white;
+	margin-left: 10%;
+	display: flex;
+	margin-bottom: 22px;
+
+}
+#cercleE{
+	width: 35px;
+	height: 35px;
+	border-radius: 20px;
+	background-color: #191970;
+	margin-left: 60px;
+	margin-bottom: 20px;
+	display: flex;
+	margin-top: -37px;
+}
+a{
+	margin-left:  10px;
+	margin-top: 5px;
+}
+h4{
+	margin-left: 40px;
+	margin-top: 5px;
+	position: absolute;
+}
+.facebook{
+	position: absolute;
+	margin-left: 40px;
+	margin-top: 5px;
+}
+.icone{
+	color: black;
+}
+.edu{
+	color: white;
+}
+h3{
+	text-align: left;
+	margin-left: 75px;
+	font-size: 19px;
+}
+.info{
+	width: 90%;
+	height: 10px;
+	background-color: white;
+	margin-left: 20px;
+	margin-top: -15px;
+	border-radius: 5px;
+
+}
+.info1{
+	background-color: #00bbff;
+	width: 78%;
+	height: 10px;
+	margin-top: -15px;
+	border-radius: 5px;
+}
+.info2{
+	background-color: #00bbff;
+	width: 70%;
+	height: 10px;
+	margin-top: -15px;
+	border-radius: 5px;
+}
+.info3{
+	background-color: #00bbff;
+	width: 98%;
+	height: 10px;
+	margin-top: -15px;
+	border-radius: 5px;
+}
+.info4{
+	background-color: #00bbff;
+	width: 70%;
+	height: 10px;
+	margin-top: -15px;
+	border-radius: 5px;
+}
+p{
+	font-weight: bold;
+}
+.article{
+	margin-left: 25%;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+@media (min-width: 480px) and (max-width: 600px){
+	aside{
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+	.nom{
+		margin: 0px;
+
+	}
+	.contenu{
+		flex-direction: column;
+		width: 100%;
+		margin:5rem auto;
+	}
+	#cercleE{
+		margin-left: -20px;
+	}
+}
+@media (min-width: 600px) and (max-width: 780px){
+	aside{
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+	.nom{
+		margin: 0px;
+
+	}
+	.contenu{
+		flex-direction: column;
+		width: 100%;
+		margin:5rem auto;
+	}
+	#cercleE{
+		margin-left: -20px;
+	}
+}
+@media ( min-width: 780px) and (max-width: 979px){
+	aside{
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+	.nom{
+		margin: 0px;
+
+	}
+	.contenu{
+		flex-direction: column;
+		width: 100%;
+		margin:5rem auto;
+	}
+	#cercleE{
+		margin-left: -20px;
+	}
+}
