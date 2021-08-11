@@ -1,22 +1,41 @@
 body{
 	background-color: grey;
 }
+.corps{
+	width: 780px;
+	border-radius: 10px;
+}
+main{
+	color: white;
+}
+.moncv{
+	background-color: white;
+	position: absolute;
+	width: 60%;
+	left: 15%;
+	padding: 3%;
+}
+aside{
+	background-color: #4682B4;
+	width: 35%;
+	margin-top: -40px;
+	margin-left: -41px;
+	padding-bottom: 1px;
 
-.nom{
-	margin-top: -137%;
-	margin-left: 40%;
 }
-.nom h1{
-	font-size: xx-large;
-	margin-left: -3%;
-}
-h5{
+#cercleG{
+	width: 210px;
+	height: 210px;
+	border-radius: 150px;
+	background-color: white;
 	margin-left: 10%;
-	margin-top: -20px;
+	display: flex;
+	margin-bottom: 22px;
+
 }
 img{
-	width: 250px;
-	height: 250px;
+	width: 210px;
+	height: 210px;
 	border-radius: 150px;
 }
 .profil{
@@ -26,67 +45,6 @@ img{
 	text-align: center;
 	color: white;
 	margin-top: 20px;
-}
-.profil1{
-	background-color: #00bfff;
-	width: 100%;
-	color: white;
-	text-align: center;
-	margin-bottom: 10px;
-
-}
-.profil2{
-	background-color: #00bfff;
-	width: 100%;
-	border-radius: 10px;
-	text-align: center;
-	color: white;
-}
-aside{
-	background-color: #191970;
-	width: 35%;
-	margin-top: -40px;
-	margin-left: -41px;
-	padding-bottom: 1px;
-
-}
-aside p{
-	margin-left: 10px;
-	margin-bottom: 30px;
-}
-.contenu{
-	display: flex;
-	font-size: 20px;
-	margin-left: 30%;
-	flex-wrap: wrap;
-	padding-bottom: 35px;
-}
-main{
-	color: white;
-	
-}
-.moncv{
-	background-color: white;
-	position: absolute;
-	width: 60%;
-	left: 15%;
-	padding: 3%;
-}
-section{
-	color: black;
-}
-i{
-	padding: 7px;
-}
-#cercle{
-	width: 30px;
-	height: 30px;
-	border-radius: 20px;
-	background-color: #00bfff;
-	margin-left: 15%;
-	display: flex;
-	margin-bottom: 8px;
-	margin-top: 5px;
 }
 #cercle1{
 	width: 32px;
@@ -98,51 +56,37 @@ i{
 	display: flex;
 	margin-top: -25px;
 }
-#cercleG{
-	width: 240px;
-	height: 240px;
-	border-radius: 150px;
-	background-color: white;
-	margin-left: 10%;
-	display: flex;
-	margin-bottom: 22px;
-
+.icone{
+	color: black;
 }
-#cercleE{
-	width: 35px;
-	height: 35px;
-	border-radius: 20px;
-	background-color: #191970;
-	margin-left: 60px;
-	margin-bottom: 20px;
-	display: flex;
-	margin-top: -37px;
-}
-a{
-	margin-left:  10px;
-	margin-top: 5px;
+i{
+	padding: 7px;
 }
 h4{
 	margin-left: 40px;
 	margin-top: 5px;
 	position: absolute;
 }
+#cercle{
+	width: 30px;
+	height: 30px;
+	border-radius: 20px;
+	background-color: #00bfff;
+	margin-left: 15%;
+	display: flex;
+	margin-bottom: 8px;
+	margin-top: 5px;
+}
+aside p{
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
 .facebook{
 	position: absolute;
 	margin-left: 40px;
 	margin-top: 5px;
 }
-.icone{
-	color: black;
-}
-.edu{
-	color: white;
-}
-h3{
-	text-align: left;
-	margin-left: 75px;
-	font-size: 19px;
-}
+
 .info{
 	width: 90%;
 	height: 10px;
@@ -180,38 +124,68 @@ h3{
 	margin-top: -15px;
 	border-radius: 5px;
 }
-p{
-	font-weight: bold;
+section{
+	color: black;
+}
+.nom{
+	margin-top: -135%;
+	margin-left: 40%;
+}
+.nom h1{
+	font-size: xx-large;
+	margin-left: -3%;
+}
+h5{
+	margin-left: 10%;
+	margin-top: -20px;
+}
+.contenu{
+	display: flex;
+	font-size: 20px;
+	margin-left: 30%;
+	flex-wrap: wrap;
+	padding-bottom: 35px;
+}
+#cercleE{
+	width: 35px;
+	height: 35px;
+	border-radius: 20px;
+	background-color: #191970;
+	margin-left: 40px;
+	margin-bottom: 20px;
+	display: flex;
+	margin-top: -38px;
+	justify-content: center;
+}
+h3{
+	text-align: left;
+	margin-left: 75px;
+	font-size: 19px;
+}
+.profil1{
+	background-color: #00bfff;
+	width: 100%;
+	color: white;
+	text-align: center;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+.edu{
+	color: white;
 }
 .article{
 	margin-left: 25%;
 	margin-bottom: 10px;
 }
-
-
-
-
-
-@media (min-width: 480px) and (max-width: 600px){
-	aside{
-		width: 100%;
-		padding: 0px;
-		margin: 0px;
-	}
-	.nom{
-		margin: 0px;
-
-	}
-	.contenu{
-		flex-direction: column;
-		width: 100%;
-		margin:5rem auto;
-	}
-	#cercleE{
-		margin-left: -20px;
-	}
+p{
+	font-weight: bold;
 }
-@media (min-width: 600px) and (max-width: 780px){
+
+@media all and (max-width: 600px){
+	
+	.corps{
+		width: 100%;
+	}
 	aside{
 		width: 100%;
 		padding: 0px;
@@ -224,26 +198,8 @@ p{
 	.contenu{
 		flex-direction: column;
 		width: 100%;
-		margin:5rem auto;
-	}
-	#cercleE{
-		margin-left: -20px;
-	}
-}
-@media ( min-width: 780px) and (max-width: 979px){
-	aside{
-		width: 100%;
-		padding: 0px;
-		margin: 0px;
-	}
-	.nom{
-		margin: 0px;
-
-	}
-	.contenu{
-		flex-direction: column;
-		width: 100%;
-		margin:5rem auto;
+		margin-left: 0;
+		padding-bottom: 0;
 	}
 	#cercleE{
 		margin-left: -20px;
