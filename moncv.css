@@ -1,26 +1,25 @@
 body{
 	background-color: grey;
 }
-.corps{
-	width: 780px;
-	border-radius: 10px;
-}
 main{
 	color: white;
+	display: block;
 }
 .moncv{
 	background-color: white;
 	position: absolute;
 	width: 60%;
 	left: 15%;
-	padding: 3%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 2%;
+	
 }
 aside{
 	background-color: #4682B4;
 	width: 35%;
-	margin-top: -40px;
-	margin-left: -41px;
-	padding-bottom: 1px;
+	padding-bottom: 5px;
+	margin-bottom: 50px;
 
 }
 #cercleG{
@@ -128,8 +127,10 @@ section{
 	color: black;
 }
 .nom{
-	margin-top: -135%;
+	margin-top: -140%;
 	margin-left: 40%;
+	margin-bottom: -30px;
+	padding-bottom: 10px;
 }
 .nom h1{
 	font-size: xx-large;
@@ -151,7 +152,7 @@ h5{
 	height: 35px;
 	border-radius: 20px;
 	background-color: #191970;
-	margin-left: 40px;
+	margin-left: 50px;
 	margin-bottom: 20px;
 	display: flex;
 	margin-top: -38px;
@@ -168,7 +169,8 @@ h3{
 	color: white;
 	text-align: center;
 	margin-bottom: 10px;
-	padding-bottom: 10px;
+	margin-left: 40px;
+	margin-right: -27px;
 }
 .edu{
 	color: white;
@@ -181,11 +183,7 @@ p{
 	font-weight: bold;
 }
 
-@media all and (max-width: 600px){
-	
-	.corps{
-		width: 100%;
-	}
+@media (min-width: 480px) and (max-width: 600px){
 	aside{
 		width: 100%;
 		padding: 0px;
@@ -198,10 +196,72 @@ p{
 	.contenu{
 		flex-direction: column;
 		width: 100%;
-		margin-left: 0;
-		padding-bottom: 0;
+		margin:5rem auto;
 	}
 	#cercleE{
-		margin-left: -20px;
+		margin-left: -10px;
+	}
+	.profil1{
+		margin-left: -10px;
+	}
+	p{
+		margin: 0px;
+	}
+	h3{ margin: 0px;
+	}
+}
+@media (min-width: 600px) and (max-width: 780px){
+	aside{
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+	.nom{
+		margin: 0px;
+
+	}
+	.contenu{
+		flex-direction: column;
+		width: 100%;
+		margin:5rem auto;
+	}
+	#cercleE{
+		margin-left: -10px;
+	}
+	.profil1{
+		margin-left: -10px;
+	}
+	p{
+		margin: 0px;
+	}
+	h3{ margin: 0px;
+	}
+}
+@media ( min-width: 780px) and (max-width: 979px){
+	aside{
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+	.nom{
+		margin: 0px;
+
+	}
+	.contenu{
+		flex-direction: column;
+		width: 100%;
+		margin:5rem auto;
+	}
+	#cercleE{
+		margin-left: -10px;
+	}
+	.profil1{
+		margin-left: -10px;
+	}
+	p{
+		margin: 0px;
+	}
+	h3{ 
+		margin: 0px;
 	}
 }
