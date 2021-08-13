@@ -190,6 +190,9 @@ p{
 		padding: 0px;
 		margin: 0px;
 	}
+	.imageG{
+		justify-content: 	center;	
+	}
 	.nom{
 		margin: 0px;
 
@@ -197,7 +200,8 @@ p{
 	.contenu{
 		flex-direction: column;
 		width: 100%;
-		margin:5rem auto;
+		padding: 0px;
+		margin: 0px;
 	}
 	#cercleE{
 		margin-left: -10px;
