@@ -3,7 +3,6 @@ body{
 }
 main{
 	color: white;
-	display: block;
 }
 .moncv{
 	background-color: white;
@@ -27,13 +26,14 @@ aside{
 	height: 210px;
 	border-radius: 150px;
 	background-color: white;
-	margin-left: 10%;
+	margin:auto;
 	display: flex;
-	margin-bottom: 22px;
 
 }
 img{
 	width: 210px;
+	display: flex;
+	justify-content: center;
 	height: 210px;
 	border-radius: 150px;
 }
@@ -190,8 +190,11 @@ p{
 		padding: 0px;
 		margin: 0px;
 	}
+	img{
+		margin: auto;
+	}
 	.imageG{
-		justify-content: 	center;	
+		margin: auto;
 	}
 	.nom{
 		margin: 0px;
