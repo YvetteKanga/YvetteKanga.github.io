@@ -209,6 +209,9 @@ p{
 	#cercleE{
 		margin-left: -10px;
 	}
+	.nom{
+		text-align: center;
+	}
 	.profil1{
 		margin-left: -10px;
 	}
